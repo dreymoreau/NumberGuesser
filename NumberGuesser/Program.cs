@@ -10,13 +10,19 @@ namespace NumberGuesser
         // entry point
         static void Main(string[] args)
         {
-            string name = "Drey";
-            int age = 25;
+            // set app variables
+            string appName = "Number Guesser";
+            string appVersion = "1.0.0";
+            string appAuthor = "Drey Moreau";
 
-            // START HERE, WriteLine creates a new line, you can do Line 
-            // but the rest of the output would be on the same line
-            Console.WriteLine(name + " is " +age);
+            // change text colour
+            Console.ForegroundColor = ConsoleColor.Green;
 
+            // Write out app info
+            Console.WriteLine("{0}: Version {1} by {2}", appName, appVersion, appAuthor);
+
+            // reset text colour after app info
+            Console.ResetColor();
         }
     }
 }
