@@ -1,6 +1,6 @@
 # NumberGuesser
 
-This project allows for the user to input a number
+This project allows for the user to input a number and see if they guessed the correct number between 1 and 10. If not the user will be reprompted and asked again to input a new number.
 
 # How Its Made 
 Tech used: C#, .NET
