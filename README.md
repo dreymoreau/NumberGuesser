@@ -11,4 +11,4 @@ Tech used: C#, .NET
 - creating a git repo and pushing code to git repo through VS Community Command line which is different then Visual Studio Code and using the terminal
 
 # Optimizations
-
+- having a higher number range, points per each correct//incorrect answer (( + // - ))
